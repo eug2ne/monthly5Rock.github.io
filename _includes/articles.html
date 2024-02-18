@@ -1,0 +1,34 @@
+<section class="articles">
+  <h3 class="articles-header">
+    recent posts
+  </h3>
+  <div class="articles-wrapper">
+    {% if site.new_posts %}
+      {% for post in site._posts %}
+      <article class="article">
+        <h2 class="article-title">
+          <a href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
+        </h2>
+        <small class="date">{{post.date | date_to_string}}</small>
+        <div class="categories">
+          {% for c in post.categories %}
+          <a href="#!" data-base-url="{{site.baseurl}}" class="category"
+            >#{{c}}</a
+          >
+          {% endfor %}
+        </div>
+      </article>
+      {%endfor%}
+    {% else %}
+      <div class="articles-none">
+        <article class="article">
+          <h2 class="article-title">There isn't any post yet!</h2>
+          <small>
+            Will make sure to post one soon lol. <br>
+            Thank you for your patience in advance.
+          </small>
+        </article>
+      </div>
+    {% endif %}
+  </div>
+</section>

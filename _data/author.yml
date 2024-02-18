@@ -1,0 +1,28 @@
+name: Eugene Kang
+description: "
+  <p>
+  Hi, I'm Eugene Kang from monthly5Rock.
+  And this is where I archive all my projects.
+  </p>
+  <br>
+  <p>
+  You can also follow me on
+    <a href='https://github.com/eug2ne'>Github</a>,
+    <a href='https://twitter.com/monthly5rock'>Twitter</a>, or
+    <a href='https://www.youtube.com/channel/UCCQnSYv0FWwVcv85vPNEK0g'>Youtube</a>.
+  </p>
+  <p>
+  email: monthly5Rock@gmail.com
+  </p>
+"
+
+email: monthly5Rock@gmail.com
+contact:
+  - title: github
+    url: https://github.com/eug2ne
+  - title: twitter
+    url: https://twitter.com/monthly5rock
+  - title: youtube
+    url: https://www.youtube.com/channel/UCCQnSYv0FWwVcv85vPNEK0g
+  - title: email
+    url: mailto:monthly5Rock@gmail.com
