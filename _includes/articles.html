@@ -3,8 +3,8 @@
     recent posts
   </h3>
   <div class="articles-wrapper">
-    {% if site.new_posts %}
-      {% for post in site._posts %}
+    {% if site.posts %}
+      {% for post in site.posts %}
       <article class="article">
         <h2 class="article-title">
           <a href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>

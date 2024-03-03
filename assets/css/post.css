@@ -65,9 +65,10 @@ main {
 
 .article-header {
   margin-bottom: 4rem;
-  padding: 5px;
+  padding: 0 0.5rem 0.5rem;
   font-family: "NeoDunggeunmo";
-  border-radius: 0 2rem 2rem 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
 }
 .article-title {
   color: var(--title-1);
@@ -110,31 +111,30 @@ main {
   padding: 0;
 }
 .content h1 {
+  margin: 1.75rem 0;
   font-size: 2rem;
 }
 .content h2 {
+  margin: 1.5rem 0;
   font-size: 1.8rem;
 }
 .content h3 {
+  margin: 1.25rem 0;
   font-size: 1.6rem;
 }
 .content h4 {
+  margin: 1rem 0;
   font-size: 1.4rem;
 }
 .content h5 {
+  margin: 0.75rem 0;
   font-size: 1.2rem;
 }
 .content h6 {
+  margin: 0.5rem 0;
   font-size: 1rem;
 }
-.content h1,
-.content h2,
-.content h3,
-.content h4,
-.content h5,
-.content h6 {
-  margin: 1.75rem 0;
-}
+
 .content blockquote {
   padding-left: 1.42188rem;
   margin-bottom: 1.75rem;
@@ -205,24 +205,24 @@ main {
 @media (prefers-color-scheme: light) {
   .content code,
   .content pre {
-    color: var(--gray-5);
-    background: var(--gray-2_5) !important;
+    color: var(--text-1);
+    background: var(--accent-2) !important;
   }
 }
 
 [data-theme="light"] {
   .content code,
   .content pre {
-    color: var(--gray-5);
-    background: var(--gray-2_5) !important;
+    color: var(--text-1);
+    background: var(--accent-2) !important;
   }
 }
 
 [data-theme="dark"] {
   .content code,
   .content pre {
-    color: var(--white-2);
-    background: var(--gray-3);
+    color: var(--text-1);
+    background: var(--accent-2);
   }
 }
 
