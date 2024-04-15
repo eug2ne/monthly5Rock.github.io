@@ -206,6 +206,9 @@ main {
   .content code,
   .content pre {
     color: var(--text-1);
+    background: var(--bg-3) !important;
+  }
+  .content code.language-plaintext {
     background: var(--accent-2) !important;
   }
 }
@@ -214,6 +217,9 @@ main {
   .content code,
   .content pre {
     color: var(--text-1);
+    background: var(--bg-3) !important;
+  }
+  .content code.language-plaintext {
     background: var(--accent-2) !important;
   }
 }
@@ -222,7 +228,10 @@ main {
   .content code,
   .content pre {
     color: var(--text-1);
-    background: var(--accent-2);
+    background: var(--bg-3) !important;
+  }
+  .content code.language-plaintext {
+    background: var(--accent-2) !important;
   }
 }
 
