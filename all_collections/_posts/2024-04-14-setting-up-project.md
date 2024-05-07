@@ -1,7 +1,7 @@
 ---
 layout: post
 title: (DevLog) 2. Setting up Project and Creating Basic Player Movement
-date: 2024-03-09
+date: 2024-04-14
 categories: ["game", "game_dev", "dev_log", "demo", "kitd", "godot", "code"]
 ---
 
