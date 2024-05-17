@@ -270,3 +270,14 @@ main {
     padding: 1.5rem;
   }
 }
+
+/* jekyll_video */
+.rounded {
+  border: 1px solid;
+  border-radius: 7px;
+}
+
+.shadow {
+  border: thin gray solid;
+  box-shadow: 5px 5px 6px #999;
+}

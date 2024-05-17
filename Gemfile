@@ -5,4 +5,5 @@ gem "jemoji"
 gem "jekyll-seo-tag"
 gem "jekyll-sitemap"
 gem "jekyll-feed"
-gem "jekyll-spaceship", group: :jekyll_plugins
+gem "jekyll-spaceship"
+gem "jekyll_video"
