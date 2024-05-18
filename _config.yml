@@ -1,5 +1,6 @@
 title: monthly5Rock blog
 markdown: kramdown
+theme: ["hugo-video", "my-theme"]
 
 # for atom feed
 author:

@@ -52,7 +52,7 @@ Even though NavigationRegion2D, and NavigationAgent2D drastically reduced the ti
 
 The first one was that the player would `float when the path didn't stick to the ground.`
 
-![](../../assets/img/kitd/demo/screenshot-24-05-07-1.mov)
+![](../../assets/img/kitd/demo/screenshot-24-05-07-1.mp4)
 
 Another problem was that it was `difficult to create consistent navigation areas for each level.` Sometimes when the distance between two adjacent tiles were too close, the navigation area would overlap between the empty space between the two tiles.
 
@@ -184,7 +184,7 @@ When the player reaches the destination, **the TileMap sets the navigatable poin
 
 The end result looks like this.
 
-![](../../assets/img/kitd/demo/screenshot-24-05-07-4.mov)
+![](../../assets/img/kitd/demo/screenshot-24-05-07-4.mp4)
 
 ---
 

@@ -110,7 +110,7 @@ And as you can see I disabled the hit-area during roll so the player can be invi
 
 So now it looks like this.
 
-![](../../assets/img/kitd/demo/screenshot-24-04-15.mov)
+![](../../assets/img/kitd/demo/screenshot-24-04-15.mp4)
 
 Next time, I will tackle on adding ladders to climb up and down. I will also try adding a navigation feature to automatically find the closest path, just like in 'This War of Mine'.
 
